@@ -30,6 +30,13 @@ public class PlayerMovement : MonoBehaviour
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, jumpForce);
         }
+
+        // adjustable jump height 
+       /* if (Input.GetKeyUp(KeyCode.Space) && IsGrounded() && rigidbody.velocity.y > 0)
+        {
+            rigidbody.velocity = new Vector2(rigidbody.velocity.x, jumpForce / 2);
+        }
+       */
     }
 
 
