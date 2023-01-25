@@ -6,6 +6,9 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] Rigidbody2D rigidbody;
     [SerializeField] float speed = 5f;
+
+    // jump
+    [Range(1f, 10f)]
     [SerializeField] float jumpForce = 5f;
 
     private float movementX = 0f;
@@ -25,10 +28,10 @@ public class PlayerMovement : MonoBehaviour
         movementX = Input.GetAxisRaw("Horizontal");
         rigidbody.velocity = new Vector2(movementX * speed, rigidbody.velocity.y);
 
-        // jump
+        //jump
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-            rigidbody.velocity = new Vector2(rigidbody.velocity.x, jumpForce);
+            rigidbody.velocity = Vector2.up * jumpForce;
         }
 
         // adjustable jump height 
