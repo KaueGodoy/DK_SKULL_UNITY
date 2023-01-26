@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] Rigidbody2D rigidbody;
-    [SerializeField] float speed = 5f;
+    [SerializeField] public float speed = 5f;
 
     // jump
     [Range(1f, 10f)]

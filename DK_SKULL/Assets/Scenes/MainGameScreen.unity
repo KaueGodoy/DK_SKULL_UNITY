@@ -256,7 +256,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13459534}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.11813831, y: -0.3028397, z: -0.006110965}
+  m_LocalPosition: {x: 1.14, y: 6.59, z: -0.006110965}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8207,6 +8207,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881193994}
   m_CullTransparentMesh: 1
+--- !u!1 &1881437176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6072194204985545318, guid: a01e46cc1d8738b41a19832511d28a37, type: 3}
+  m_PrefabInstance: {fileID: 9208849517764437071}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1881437179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881437176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ffbd1bc33aaf424883e9a9cfd2fb47a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 11400000, guid: adda59532dd514a40a443ff11deb25cc, type: 2}
 --- !u!1 &1885492851
 GameObject:
   m_ObjectHideFlags: 0
@@ -8584,11 +8602,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3937245044021071788, guid: a01e46cc1d8738b41a19832511d28a37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.6600001
+      value: 1.77
       objectReference: {fileID: 0}
     - target: {fileID: 3937245044021071788, guid: a01e46cc1d8738b41a19832511d28a37, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.1399999
+      value: -2.47
       objectReference: {fileID: 0}
     - target: {fileID: 3937245044021071788, guid: a01e46cc1d8738b41a19832511d28a37, type: 3}
       propertyPath: m_LocalPosition.z
