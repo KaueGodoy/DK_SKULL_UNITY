@@ -12,7 +12,7 @@ public class HitStomp : MonoBehaviour
     {
         if (collision.gameObject.tag == "HeadHitBox")
         {
-            Destroy(collision.gameObject);
+           
             rb.velocity = new Vector2(rb.velocity.x, bounce);
         }
     }
